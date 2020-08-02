@@ -88,10 +88,10 @@ WSGI_APPLICATION = 'aws_training.wsgi.application'
 DATABASES = {
      'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'db-first-instance',
+        'NAME': 'database-1',
         'USER': 'shashank',
         'PASSWORD': 'dudes11081991',
-        'HOST': 'db-first-instance.cm4dxr3grlcr.us-east-2.rds.amazonaws.com',
+        'HOST': 'database-1.cm4dxr3grlcr.us-east-2.rds.amazonaws.com',
         'PORT': '5432',
     }
 }
